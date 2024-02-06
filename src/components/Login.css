@@ -1,0 +1,24 @@
+.maxio-login-form {
+  width: 100%;
+  max-width: 300px;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: auto;
+
+  border: 1px solid var(--maxio-gray-90);
+  background-color: white;
+}
+
+.maxio-login-form__logo {
+  background-image: url("https://internal-cdn.chargify.com/4.10.0/assets/logo.svg");
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maxio-login-form__text {
+  text-align: center;
+}

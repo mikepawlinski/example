@@ -1,8 +1,26 @@
 import { PropsWithChildren } from "react";
 import "./Layout.css";
+import Sidebar from "./Sidebar";
 
-const Layout = ({ children }: PropsWithChildren) => {
-  return <div className="maxio-layout">{children}</div>;
+type LayoutProps = PropsWithChildren<{
+  dark?: boolean;
+  withSidebar?: boolean;
+  header?: React.ReactNode;
+}>;
+
+const Layout = ({ dark, withSidebar, header, children }: LayoutProps) => {
+  return (
+    <div className={`maxio-layout ${dark ? "maxio-layout--dark" : ""}`}>
+      {header && <div className="maxio-layout__header">{header}</div>}
+
+      {withSidebar && (
+        <div className="maxio-layout__sidebar">
+          <Sidebar />
+        </div>
+      )}
+      <div className="maxio-layout__content">{children}</div>
+    </div>
+  );
 };
 
 export default Layout;

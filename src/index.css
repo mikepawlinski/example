@@ -5,3 +5,8 @@ body {
   font-size: 16px;
   font-family: "Inter", sans-serif;
 }
+
+/* overrides (possibly bugs) */
+.maxio-side-nav {
+  justify-content: flex-start;
+}

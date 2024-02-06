@@ -1,6 +1,28 @@
 .maxio-layout {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   min-height: 100svh;
   width: 100%;
+}
+
+.maxio-layout__header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.maxio-layout__content {
+  margin: 72px auto 0;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 24px;
+}
+
+.maxio-layout__sidebar {
+  margin-top: 56px;
+}
+
+.maxio-layout.maxio-layout--dark {
+  background-color: var(--maxio-gray-105);
 }
