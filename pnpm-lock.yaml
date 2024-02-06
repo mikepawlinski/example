@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@maxio-com/react-ui-components':
-    specifier: ^2.3.1
-    version: 2.3.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.4.0
+    version: 2.4.0(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1078,8 +1078,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@maxio-com/react-ui-components@2.3.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Jhe6J7V0UrVM0SOmdh6Y/GDriD/cy/cOLDOH/wwBfLnSMiUBZt98cLnpxJFBDAwzyvktUxNt43i4zvR3B29+hg==}
+  /@maxio-com/react-ui-components@2.4.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-+1f3z4ALNwHfDQZpaXOMqgA05px0mHjkj8grJ4Rhnc/RumTVkD1Ex24JMN8sdQOqLLXAX9udgqRufahc5KQ83Q==}
     peerDependencies:
       react: ^17.0 || ^18.0
       react-dom: ^17.0 || ^18.0
